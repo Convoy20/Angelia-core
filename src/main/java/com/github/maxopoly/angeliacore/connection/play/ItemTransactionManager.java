@@ -74,7 +74,7 @@ public class ItemTransactionManager {
 		}
 		State currentState = pendingTransactions.get(id);
 		if (currentState != State.PENDING) {
-			throw new IllegalAccessError("State can't be changed if it's not PENDING");
+			return;
 		}
 		pendingTransactions.put(id, status);
 	}
