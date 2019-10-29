@@ -114,7 +114,7 @@ public class Heartbeat extends TimerTask {
 		registerPacketHandler(new JoinGamePacketHandler(connection));
 		registerPacketHandler(new KeepAlivePacketHandler(connection));
 		registerPacketHandler(new OpenInventoryPacketHandler(connection));
-		registerPacketHandler(new PlayerListItemPacketHandler(connection));
+	//	registerPacketHandler(new PlayerListItemPacketHandler(connection));
 		registerPacketHandler(new PlayerPositionLookPacketHandler(connection));
 		registerPacketHandler(new SetSlotPacketHandler(connection));
 		registerPacketHandler(new SpawnPlayerPacketHandler(connection));
