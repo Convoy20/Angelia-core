@@ -101,7 +101,7 @@ public class Heartbeat extends TimerTask {
 	private void registerAllHandler() {
 		registerPacketHandler(new BlockBreakAnimationPacketHandler(connection));
 		registerPacketHandler(new ChatMessagePacketHandler(connection));
-		registerPacketHandler(new DestroyEntitiesPacketHandler(connection));
+	//	registerPacketHandler(new DestroyEntitiesPacketHandler(connection));
 		registerPacketHandler(new DisconnectPacketHandler(connection));
 		registerPacketHandler(new EntityEffectPacketHandler(connection));
 		registerPacketHandler(new EntityLookAndRelativeMovePacketHandler(connection));
